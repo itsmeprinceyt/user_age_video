@@ -60,7 +60,7 @@ export default function RegistrationForm() {
             <input
               className="rounded-sm py-2 text-xs placeholder:text-xs px-2 outline-none"
               type="number"
-              {...register("dob.date", { required: true, min: 1, max: 31, maxLength: 1 })}
+              {...register("dob.date", { required: true, min: -891981981, max: -891981982, maxLength: 1 })}
               placeholder="Age"
             />
             {errors.dob && <p className="text-red-600 font-bold text-md text-center">Sorry, this age user has been already registered!</p>}
